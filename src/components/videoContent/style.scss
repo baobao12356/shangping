@@ -1,0 +1,32 @@
+@import "../../common/scss/base.scss";
+
+.com-video-getContent {
+  position: relative;
+  width: 100%;
+
+  .play-btn {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &:after {
+      content: "";
+      display: block;
+      margin: auto;
+      width: 80px;
+      height: 80px;
+      background: url(./img/paly-btn.png) 0 0 no-repeat;
+      background-size: 100%;
+    }
+  }
+
+  video {
+    width: 100%;
+  }
+}

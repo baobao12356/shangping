@@ -1,0 +1,46 @@
+.shopmodule{
+  min-height: 194px;
+  padding: 44px 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .shopmodule_img{
+    width: 106px;
+    height: 106px;
+    border: 2px solid #E0E0E0;
+  }
+  .shopmodule_detail{
+    padding-left: 30px;
+    width: 450px;
+    min-height:106px;
+    .shopmodule_name{
+      width: 396px;
+      margin-top: 6px;
+      font-size: 30px;
+      color: #000000;
+      font-weight: bold;
+      padding: 6px 0;
+    }
+    .shopmodule_address{
+      width: 396px;
+      margin-top: 10px;
+      font-size: 24px;
+      color: #666666;
+      padding: 6px 0;
+      line-height: 1.2;
+    }
+  }
+  .shopmodule_button{
+    font-size: 24px;
+    height: 48px;
+    line-height: 0;
+    color: #dfaf7d;
+    padding: 24px 16px;
+    border: 1px solid #dfaf7d;
+    border-radius: 4px;
+    position: absolute;
+    top:50%;
+    right: 32px;
+    transform: translate3d(0, -50% ,0);
+  }
+}

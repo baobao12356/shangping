@@ -1,0 +1,145 @@
+@import "../../common/scss/minxi.scss";
+.com-app-downlaod-tip {
+    display: flex;
+}
+
+.wish-icon {
+    width: 60% !important
+}
+
+.com-collect {
+    display: block;
+    height: 76px; //margin: auto;
+    //justify-content:center;
+    //width: 38px;
+    //height: 66px;
+    //padding: 9px;
+    position: relative; //&:after {
+    //  content: '';
+    //  position: absolute;
+    //  left: 50%;
+    //  top: 50%;
+    //  transform: translate3d(-50%,-50%,0);
+    //  display: block;
+    //  width: 45px;
+    //  height: 80px;
+    //  //background: url(img/collect.png) 0 0 no-repeat;
+    //  background-size: cover;
+    //}
+    //&.collected:after {
+    //  //background-image: url(img/collected.png);
+    //}
+}
+
+// 心愿单
+.wish-comp {
+    position: relative;
+    .wish-count {
+        position: absolute;
+        left: 63px;
+        top: 20px;
+        font-size: 20px
+    }
+    .wish-popup {
+        position: fixed;
+        bottom: 118px;
+        left: 72px;
+        font-size: 24px;
+        line-height: 72px;
+        text-align: left;
+        width: 336px;
+        background: #fff;
+        border-radius: 10px;
+        border: 4px solid #DFAF7D;
+        z-index: 999;
+        div {
+            height: 72px;
+            padding-left: 20px;
+            border-bottom: 1px solid rgb(228, 228, 228);
+            &:nth-of-type(3) {
+                border: none;
+            }
+        }
+        .wp-title {
+            color: #DFAF7D;
+        }
+        s {
+            position: absolute;
+            top: -20px;
+            left: 20px;
+            display: block;
+            height: 0;
+            width: 0;
+            font-size: 0;
+            line-height: 0;
+            border-color: transparent transparent #666 transparent;
+            border-style: dashed dashed solid dashed;
+            border-width: 10px;
+            i {
+                position: absolute;
+                top: -9px;
+                left: -10px;
+                display: block;
+                height: 0;
+                width: 0;
+                font-size: 0;
+                line-height: 0;
+                border-color: transparent transparent #fff transparent;
+                border-style: dashed dashed solid dashed;
+                border-width: 10px;
+            }
+        }
+    }
+}
+
+.bottom {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 145px;
+    bottom: -38px;
+    z-index: 2;
+    /*兼容ie8-*/
+}
+
+.bottom-arrow1,
+.bottom-arrow2 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    /*兼容ie8-*/
+    border-bottom: 20px transparent dashed;
+    border-left: 20px transparent dashed;
+    border-right: 20px transparent dashed;
+    border-top: 20px white solid;
+    overflow: hidden;
+}
+
+.bottom-arrow1 {
+    top: 4px;
+    /*重要*/
+    border-top: 20px #DFAF7D solid;
+}
+
+.bottom-arrow2 {
+    border-top: 20px white solid;
+}
+
+.wish-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    z-index: 99;
+}
+
+.add-icon {
+    font-size: 32px;
+}

@@ -1,0 +1,122 @@
+div#shopParameter {
+  padding: 40px 30px 100px 30px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: height 0.2s;
+  p.shopTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  ul.parameter {
+    li {
+      min-height: 70px;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+      p {
+        display: inline-block;
+        max-width: 490px;
+        line-height: 1;
+        padding: 6px 0 36px 0 ;
+        font-size: 28px;
+        vertical-align: top;
+      }
+      p.paramterName {
+        min-width: 196px;
+        max-width: 272px;
+        color: #666666;
+      }
+      p.paramterText {
+        color: #333333;
+      }
+    }
+  }
+  ul.attributeList {
+    li {
+      min-height: 70px;
+      display: flex;
+      font-size: 28px;
+      p {
+        display: inline-block;
+        min-height: 40px;
+        max-width: 346px;
+        line-height: 1;
+        font-size: 28px;
+        vertical-align: top;
+        color: #333333;
+        padding-right: 20px;
+        padding-top: 6px;
+        padding-bottom: 21px;
+      }
+      span:first-child {
+        min-width: 196px;
+        line-height: 1;
+        max-width: 196px;
+        color: #666666;
+        padding: 0;
+        padding-top: 6px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+        line-height: 1;
+
+      }
+    }
+  }
+  .showmore{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #999999;
+    font-size: 24px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background: #ffffff;
+    box-sizing: content-box;
+    padding-bottom: 20px;
+    &:after{
+      position: absolute;
+      top: 34px;
+      right: 300px;
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 12px solid #999999;
+    }
+  }
+  .showless{
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #999999;
+    font-size: 24px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background: #ffffff;
+    box-sizing: content-box;
+    padding-bottom: 20px;
+    &:after{
+      position: absolute;
+      top: 34px;
+      right: 330px;
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 12px solid #999999;
+    }
+  }
+}

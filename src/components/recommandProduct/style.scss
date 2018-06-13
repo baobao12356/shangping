@@ -1,0 +1,69 @@
+
+.recommandProduct {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  .split {
+    height: 12px;
+    background: #f1f1f1;
+  }
+  .desc {
+    padding: 40px 0px 42px 30px;
+    font-size: 40px;
+    color: #333333;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+  }
+  .productCon {
+    padding-bottom: 26px;
+    .pList {
+      width: 100%;
+    }
+    .productImgList {
+      width: 330px;
+      height: 482px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 30px;
+      font-size: 0;
+      .previewImg {
+        width: 330px;
+        height: 330px;
+      }
+      .title, .price {
+      }
+      .title{
+        margin-left: 10px;
+        font-weight: bold;
+        white-space: normal;
+        word-break: break-all;
+        margin-top: 20px;
+        line-height: 42px;
+        font-size: 30px;
+        color: #333333;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+      .price {
+        margin-left: 10px;
+        font-family: "PingFang SC";
+        font-weight: bold;
+        line-height: 42px;
+        word-break: break-all;
+        margin-top: 10px;
+        font-size: 30px;
+        color: #333333;
+        del{
+          font-size: 24px;
+          color: #999999;
+          padding-left: 16px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+@import "../../common/scss/base.scss";
+
+#hmHeders {
+  width: 100%;
+  background: #fff;
+  position: relative;
+  //top: 1.4rem;
+  header {
+    width: 100%;
+    background: #ffffff;
+    //overflow: hidden;
+    left: 0;
+    //top: 1.4rem;
+    top: 0;
+    position: fixed;
+    z-index: 28;
+    display: block;
+    height: 128px;
+    transform: translate3d(0,0,0);
+  }
+  .backArrowCon {
+    width: 80px;
+    height: 128px;
+    position: fixed;
+    //top: 1.4rem;
+    top: 0;
+    z-index: 29;
+  }
+  .backArrow {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    bottom: 24px;
+    left: 17px;
+  }
+  .middleShopName{
+    width: 100%;
+    height: 128px;
+    padding: 0 180px;
+    div{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: center;
+    }
+    position: fixed;
+    //top: 1.4rem;
+    top: 0;
+    z-index: 28;
+    font-size: 34px;
+    color: #333333;
+    text-align: center;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate3d(0,0,0);
+  }
+  .rightExport {
+    right: 22.6664px;
+    left: inherit;
+    z-index: 28;
+    position: fixed;
+    top: 0px;
+    padding-top: 12px;
+    .share {
+      width: 55px;
+      height: 55px;
+      display: inline-block;
+      margin-left: 40px;
+      img {
+        width: 55px;
+        height: 55px;
+      }
+    }
+  }
+  .headerCon {
+    //width: 260px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 88px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 0px rgba(0,0 ,0 ,0.08);
+    a {
+      display: inline-block;
+      flex: 1;
+      height: 88px;
+      li{
+        //height: 100%;
+        width: 100%;
+        //line-height: 88px;
+        color: #666666;
+        font-size: 28px;
+        margin: 30px 0;
+        box-shadow: 1px 0px 0 0 #E0E0E0;
+      }
+      .hmActive{
+        color: #dfaf7d;
+        font-weight: bold;
+        //&::after {
+        //  content: "";
+        //  position: absolute;
+        //  height: 4px;
+        //  width: 32px;
+        //  bottom: 8px;
+        //  left: 50%;
+        //  background: url("./img/rectangle7@2x.png") no-repeat;
+        //  background-size: 100%;
+        //  margin-left: -16px;
+        //}
+      }
+    }
+  }
+  .content {
+    position: relative;
+    //top: 128px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+  .hideTabItem {
+    display: none;
+  }
+  .hmTab {
+    width: 86.6667px;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    //height: 128px;
+    //line-height: 2rem;
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    //padding-bottom: 12px;
+  }
+
+
+}
+
+

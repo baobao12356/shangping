@@ -1,0 +1,22 @@
+#shopGoodsDetail {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  p.shopTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-top: 40px;
+    position: relative;
+  }
+  div.detailHtml{
+    width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 30px;
+    line-height: 1.3;
+  }
+}

@@ -1,0 +1,118 @@
+.goods-coupon-item {
+    position: relative;
+    display: flex;
+    width: 720px;
+    height: 212px;
+    background: url("./img/toGet_big.png") no-repeat;
+    background-size: 710px 212px;
+    &.get_end {
+        background: url("./img/getEnd_big.png") no-repeat;
+        background-size: 710px 212px;
+    }
+    &.have_get {
+        background: url("./img/getted_big.png") no-repeat;
+        background-size: 710px 212px;
+    }
+    .coupon-item-left,
+    coupon-item-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .coupon-item-left {
+        //width: 486px;
+        align-items: flex-start;
+        overflow: hidden;
+        flex: 1;
+        padding-left: 42px;
+        .coupon-item-price {
+            font-size: 52px;
+            color: rgb(255, 69, 74);
+            line-height: 52px;
+            text-align: center;
+            max-width: 260px;
+            &.text {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-size: 40px;
+                text-align: left;
+            }
+            .coupon-item-unit {
+                font-size: 24px;
+                color: rgb(255, 69, 74);
+            }
+        }
+        .coupon-item-desc {
+            margin-top: 10px;
+            font-size: 24px;
+            color: #999;
+            line-height: 24px;
+        }
+        .coupon-item-time {
+            margin-top: 10px;
+            font-size: 24px;
+            color: #999;
+            line-height: 24px;
+        }
+    }
+    .coupon-item-right {
+        width: 224px;
+        flex-shrink: 0;
+        position: relative;
+        .coupon-item-btn {
+            font-size: 24px;
+            color: #fff;
+            width: 80%;
+            overflow: hidden;
+            min-height: 48px;
+            line-height: 48px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: 5px;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            &.not_start {
+                font-size: 24px;
+                line-height: 1.5;
+            }
+        }
+    }
+    .coupon_status {
+        position: absolute;
+        width: 108px;
+        height: 108px;
+        right: 98px;
+        top: 50px;
+        &.get_end {
+            background: url("./img/getEnd_circle.png") no-repeat center center;
+            background-size: cover;
+        }
+        &.have_get {
+            background: url("img/geted_circle.png") no-repeat center center;
+            background-size: cover;
+        }
+    }
+}
+
+.coupon-item-comp {
+    display: flex;
+    align-items: flex-start;
+}
+
+.coupon_item_plus {
+    display: inline-block;
+    width: 138px;
+    height: 32px; //line-height: 52px;
+    vertical-align: middle;
+    background: url("img/shopPlus.png") no-repeat center center;
+    background-size: cover;
+    margin: 10px 0 0 2px;
+}
+
+.goods-coupon-plus {
+    display: none
+}

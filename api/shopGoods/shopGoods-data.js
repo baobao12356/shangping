@@ -1,0 +1,120 @@
+module.exports = function() {
+  return {
+    "code": "200",
+    "message": "成功",
+    "dataMap": {
+      "psgId": 1008668011,
+      "productId": 0,
+      "pdtSku": "20322871",
+      "pdtName": "新建自采品牌01 新建自采商品01 新建自采系列01 新建自采商型号01",
+      "productSecondName": "自采标语01",
+      "brandId": 0,
+      "brandName": "新建自采品牌01",
+      "seriesId": 0,
+      "seriesName": "新建自采系列01",
+      "modelNumber": "新建自采商型号01",
+      "shopId": 8249,
+      "shopName": "fuggerhaus1",
+      "colorId": 12,
+      "color": "乳白色",
+      "colorRgb": "#fffbf0",
+      "standard": "10",
+      "standardUnit": "mm",
+      "chargeUnit": "AH",
+      "chargeUnitName": "件",
+      "material1": "",
+      "material2": "",
+      "material3": "",
+      "material": "自采纯棉01",
+      "materialQuality": "",
+      "salePrice": 150,
+      "onlinePrice": 120,
+      "marketPrice": 0,
+      "subCategoryId": 231,
+      "subCategoryName": "鞋用品",
+      "categoryId": 1581,
+      "categoryName": "鞋撑",
+      "countryId": "CN",
+      "countryName": "中国",
+      "provinceId": "230000",
+      "provinceName": "黑龙江省",
+      "cityId": "230800",
+      "cityName": "佳木斯市",
+      "weight": 0,
+      "priceType": "议价",
+      "lvInfo": "合格",
+      "refundType": "支持",
+      "goodsType": 1,
+      "inventory": 100,
+      "saleOnly": 0,
+      "showOnly": 0,
+      "shopType": 2,
+      "businessType": 0,
+      "picUrl": "http://img1.uat1.rs.com/g1/M00/02/49/wKh8ylof2f2ARqNfAAB8Qb2xnbY189.png",
+      "imgs": [
+        "http://img1.uat1.rs.com/g1/M00/02/49/wKh8ylof2f2ARqNfAAB8Qb2xnbY189.png",
+        "http://img1.uat1.rs.com/g1/M00/02/BC/wKh8y1of2f2ACCrTAADLXhfZI-I042.jpg",
+        "http://img1.uat1.rs.com/g1/M00/02/49/wKh8ylof2f2AHeMPAACyksZbP7Y131.png"
+      ],
+      "spu": null,
+      "productColors": null,
+      "productColorStandards": null,
+      "productAttributeList": [],
+      "productShopGoodsAttrVoList": [],
+      "skuList": [],
+      "productTextVo": {
+        "modelType": 0,
+        "productHtml": "<p>新建自采商品01</p><p><img alt=\"5816ef34Nded32131\" src=\"http://img1.uat1.rs.com/g1/M00/02/BC/wKh8y1of2fSAYDAKAAHZM3enq-w225.jpg\" style=\"max-width:100%;\"><br></p><p><br></p>"
+      },
+      "relationGoods": [],
+      "siblings": [],
+      "roomId": null,
+      "roomStatus": null,
+      "roomTitle": null,
+      "roomLiveUrl": null,
+      "roomLivePic": null,
+      "groupid": null,
+      "pageid": null,
+      "discountPrice": null,
+      "stock": null,
+      "shopInfoBrief": {
+        "id": 8249,
+        "shop_name": "fuggerhaus1",
+        "has_promotion": 0,
+        "has_promotion_coupon": 0,
+        "city_id": "310100",
+        "city_name": "上海市",
+        "market_id": 19,
+        "market_name": "上海真北商场",
+        "market_short": "真北店",
+        "market_lon": "121.392227",
+        "market_lat": "31.24442",
+        "address": "上海市普陀区真北路1108号",
+        "shop_pic": "http://img1.uat1.rs.com/g1/M00/00/34/wKh8ylj3Mg-ATyOKAAAUg5-tDMM164.jpg",
+        "shopType": 2,
+        "experienceFlag": null
+      },
+      "goodsServiceTags": [
+        {
+          "tagName": "不支持7天无理由退货",
+          "tagDesc": "商家承诺买家在签收商品之日起七天内，对支持七天无理由退货并符合标准的商品，可发起七天无理由退货申请\n商家承诺买家在签收商品之日起七天内，对支持七天无理由退货并符合标准的商品，可发起七天无理由退货申请\n商家承诺买家在签收商品之日起七天内，对支持七天无理由退货并符合标准的商品，可发起七天无理由退货申请\n商家承诺买家在签收商品之日起七天内，对支持七天无理由退货并符"
+        },
+        {
+          "tagName": "上门安装",
+          "tagDesc": "商家承诺对其店铺内含有“送货入户并安装”服务承诺的商品提供同城范围内送货入户并安装的特殊服务。\n商家承诺对其店铺内含有“送货入户并安装”服务承诺的商品提供同城范围内送货入户并安装的特殊服务。\n商家承诺对其店铺内含有“送货入户并安装”服务承诺的商品提供同城范围内送货入户并安装的特殊服务。\n商家承诺对其店铺内含有“送货入户并安装”服务承诺的商品提供同城范围内送货"
+        },
+        {
+          "tagName": "送货入户",
+          "tagDesc": "送货入户描述"
+        },
+        {
+          "tagName": "延迟发货赔付",
+          "tagDesc": "延迟发货是指除特殊商品外，商家实际未在约定时间内发货，妨害买家购买权益的行为。若送货、安装发生延迟，每延迟一天，顾客可获得逾期商品总价款金额3‰的违约金，若送货、安装延迟超过30天，顾客有权解除相关购买协议。\n延迟发货是指除特殊商品外，商家实际未在约定时间内发货，妨害买家购买权益的行为。若送货、安装发生延迟，每延迟一天，顾客可获得逾期商品总价款金额3‰的违约"
+        }
+      ],
+      "showChargeUnit": false
+    },
+    "responseTime": 1513652082903,
+    "ok": true
+  }
+}

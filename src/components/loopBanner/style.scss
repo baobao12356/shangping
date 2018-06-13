@@ -1,0 +1,29 @@
+@import "../../common/scss/base.scss";
+
+.img-show {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+div.hm-carousel {
+  height: 750px !important;
+  div.slider-frame {
+    height: 750px !important;
+    width: 750px !important;
+    li.slider-slide {
+      height: 750px !important;
+      width: 750px !important;
+      div {
+        height: 1750px !important;
+        width: 750px !important;
+        img {
+          width: 750px !important;
+          height: 750px !important;
+        }
+      }
+    }
+
+  }
+
+}
+

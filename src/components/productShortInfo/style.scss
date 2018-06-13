@@ -1,0 +1,482 @@
+.productShortInfo {
+    background: #ffffff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    .title {
+        position: relative;
+        overflow: hidden;
+        padding-right: 22.333px;
+        padding-left: 30px;
+        .desc {
+            float: left;
+            font-size: 34px;
+            font-weight: bold;
+            color: #333333;
+            text-align: left;
+            margin-top: 40px;
+            margin-bottom: 14px;
+            line-height: 1.2;
+            padding: 2px 0;
+            word-break: break-all;
+        }
+        .star {
+            width: 15%;
+            float: right;
+            vertical-align: top;
+            padding-top: 22px;
+            text-align: right;
+            span.com-collect {
+                display: inline-block;
+            }
+        }
+    }
+    p.desc {
+        clear: both;
+        float: none;
+        font-size: 28px;
+        line-height: 1.2;
+        padding: 4px 0;
+        color: #999999;
+        margin: 0 30px;
+        margin-bottom: 34px;
+        word-break: break-all;
+    }
+    .marketPrice,
+    .xsgPrice {
+        font-size: 24px;
+        color: #999999;
+        padding: 16px 0 30px 30px;
+        span {
+            float: right;
+            &:after {
+                content: '';
+                clear: both;
+            }
+        }
+    }
+    .zsPrice {
+        padding-left: 30px;
+        font-size: 44px;
+        color: #333333;
+        margin-top: 50px;
+        position: relative;
+        .priceIcon {
+            margin-left: 20px;
+            position: relative;
+            color: #ffffff;
+            padding: 5px;
+            font-size: 15px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            vertical-align: middle;
+            &.pro-29 {
+                background-color: #439df7;
+            }
+            &.pro-31 {
+                background: #ff635e;
+            }
+        }
+        .priceScope {
+            float: right;
+            font-size: 20px;
+            padding: 5px;
+            color: #da9767;
+            border: #da9767 1px solid;
+            vertical-align: bottom;
+            &:after {
+                content: '';
+                clear: both;
+            }
+        }
+    }
+    .favor:after {
+        content: '';
+        background: url('favor.png');
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        right: 0;
+        top: 28px;
+    }
+}
+
+.setPaddingCon {}
+
+.desc_bottom {
+    padding-bottom: 30px;
+}
+
+.price_modules {
+    font-family: "PingFang SC";
+    .preview_module {
+        margin-left: 30px;
+        margin-bottom: 20px;
+        .icon_preview {
+            display: inline-block;
+            width: 108px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            background: url("./icon_preview.png") no-repeat;
+            background-size: cover;
+            margin-right: 16px;
+        }
+        .pHour {
+            display: inline-block;
+            color: #fff;
+            height: 36px;
+            width: 36px;
+            text-align: center;
+            background: #000;
+            line-height: 36px;
+        }
+        .pMinutes {
+            display: inline-block;
+            color: #fff;
+            height: 36px;
+            width: 36px;
+            text-align: center;
+            background: #000;
+            line-height: 36px;
+        }
+        .pSecond {
+            display: inline-block;
+            color: #fff;
+            height: 36px;
+            width: 36px;
+            text-align: center;
+            background: #000;
+            line-height: 36px;
+            margin-right: 4px;
+        }
+        .preview_desc {
+            font-size: 24px;
+            color: #ff454a;
+        }
+    }
+    .price_modules_actime {
+        color: #666666;
+        font-size: 24px;
+        padding: 6px 0;
+        margin: 20px 30px;
+    }
+    .price_modules_group {
+        margin: 0 30px;
+        display: flex;
+        height: 80px;
+        .price_modules_group_title {
+            font-size: 28px;
+            font-weight: bold;
+            color: rgb(223, 175, 125);
+            height: 40px;
+            line-height: 40px;
+            padding-left: 30px;
+        }
+        .price_modules_group_status {
+            .price_modules_group_status_pic {
+                width: 380px;
+                height: 8px;
+                background: #E0E0E0;
+                border-radius: 18px;
+                margin: 16px 0;
+                div {
+                    width: 200px;
+                    height: 8px;
+                    background: linear-gradient(to right, rgb(232, 206, 180), rgb(223, 175, 125));
+                    border-radius: 18px;
+                }
+            }
+            .price_modules_group_status_number {
+                color: #999999;
+                font-size: 24px;
+            }
+        }
+    }
+    &_now {
+        height: 62px;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: #666666;
+        .price_modules_stock {
+            padding: 18px 0;
+            float: right;
+            color: #999999;
+        }
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &_title {
+            display: inline-block;
+            vertical-align: bottom;
+            font-size: 28px;
+            line-height: 1;
+            padding: 18px 0;
+            padding-right: 16px;
+            color: #333333;
+        }
+        &_title1 {
+            display: inline-block;
+            vertical-align: bottom;
+            font-size: 28px;
+            padding-right: 16px;
+            color: #333333;
+        }
+        &_price {
+            font-weight: bold;
+            font-family: "PingFang SC";
+            display: inline-block;
+            vertical-align: bottom;
+            padding: 9px 0;
+            color: #ff454a;
+            font-size: 44px;
+        }
+        &_icon {
+            display: inline-block;
+            font-size: 24px;
+            height: 36px;
+            padding: 0 8px;
+            text-align: center;
+            line-height: 36px;
+            background: #ff454a;
+            color: #ffffff;
+        }
+        &_icon1 {
+            display: inline-block;
+            font-size: 24px;
+            line-height: 30px;
+            padding: 0 8px;
+            ;
+            text-align: center;
+            background: #ffffff;
+            color: #dfaf7d;
+            border: 1px solid #dfaf7d;
+            border-radius: 4px;
+            margin-left: 20px;
+        }
+    }
+    &_market {
+        margin-left: 30px;
+        font-size: 24px;
+        color: #666666;
+        margin-bottom: 20px;
+        padding: 6px 0;
+        &_title {
+            padding-right: 16px;
+        }
+        &_price {
+            font-family: "PingFang SC";
+            color: #999999;
+            padding-right: 12px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .price_modules_now_title1 {
+            display: inline-block;
+            vertical-align: middle;
+            padding-right: 50px;
+        }
+    }
+    .price_modules_city {
+        font-size: 24px;
+        color: #666666;
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+    .rule_wrap {
+        width: 89%;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #333;
+        vertical-align: top;
+        .rule_icon {
+            padding: 4px 8px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 24px;
+            color: #fff;
+            margin-right: 30px;
+            &.rule_icon_coupon {
+                background: #dfaf7d;
+            }
+            &.rule_icon_promotion {
+                background: #d9353d;
+            }
+        }
+        .rule_txt {
+            font-size: 24px;
+            color: #333;
+        }
+    }
+    .price_modules_wrap {
+        margin-bottom: 40px;
+    }
+    &_rules {
+        height: 88px;
+        line-height: 88px;
+        padding-left: 30px; //margin-bottom: 40px;
+        .price_modules_rules_detail {
+            color: #333333;
+            font-weight: bold;
+            font-size: 28px;
+            padding-right: 50px;
+        }
+        &.price_modules_rules_ac {
+            .rule_wrap {
+                border-bottom: 2px solid #f1f1f1;
+            }
+            .price_modules_rules_icon {
+                border-bottom: 2px solid #f1f1f1;
+            }
+        }
+        &_title {
+            color: #333333;
+            font-size: 24px;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+        }
+        &_line {
+            display: inline-block;
+            vertical-align: top;
+            width: 16px;
+            height: 50%;
+            margin: 0 14px;
+            border-bottom: 0.06rem solid #979797;
+        }
+        &_icon {
+            display: inline-block;
+            vertical-align: top;
+            width: 11%;
+            height: 88px;
+            position: relative;
+            float: right;
+            &:after {
+                content: '';
+                background: url("更多@2x.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                left: 50%;
+                top: 50%;
+                transform: translate3d(-50%, -50%, 0);
+            }
+        }
+        .price_modules_rules_title_rule {
+            color: #333333;
+            font-size: 24px;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .price_modules_rules_line_rule {
+            background: #333333;
+            font-size: 24px;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            margin: 40px 16px;
+        }
+    }
+}
+
+.service_modules {
+    .service_banner {
+        height: 16px;
+        background: #f1f1f1;
+    }
+    .address {
+        line-height: 90px;
+        margin: 0 30px;
+        display: flex;
+        &_title {
+            flex-shrink: 0;
+            color: #666666;
+            font-size: 24px;
+            padding-right: 16px;
+        }
+        &_content {
+            color: #333333;
+            font-size: 28px;
+            line-height: 1.3;
+            padding: 26px 0;
+        }
+    }
+    .service {
+        height: 90px;
+        line-height: 90px;
+        margin-left: 30px;
+        &_title {
+            color: #666666;
+            font-size: 24px;
+            padding-right: 16px;
+        }
+        &_content {
+            color: #333333;
+            font-size: 28px;
+        }
+    }
+}
+
+.price_ding {
+    font-size: 28px;
+    color: #333;
+    margin-right: 25px;
+    font-weight: normal;
+}
+
+.price_teding {
+    .text {
+        font-size: 24px;
+        color: #666;
+        margin-right: 10px;
+    }
+    .weikuan {
+        font-size: 30px;
+        color: #ff454A;
+        margin-right: 20px;
+    }
+    .price_modules_market_price {
+        font-size: 24px;
+        color: #666;
+    }
+}
+
+.preview_module {
+    .ding {
+        margin-right: 5px;
+    }
+}
+
+.preview_module {
+    .new_pirce {
+        margin-right: 20px;
+    }
+    .old_price {
+        vertical-align: top;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .inventory {
+        float: right;
+        margin: 13px 30px 0 0;
+        font-size: 24px;
+        color: #999
+    }
+}
+
+.new_preview {
+    margin-bottom: 30px;
+}

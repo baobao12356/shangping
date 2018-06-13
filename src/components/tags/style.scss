@@ -1,0 +1,16 @@
+@import "../../common/scss/base.scss";
+
+.com-tags {
+  @extend %clearfix;
+
+  span {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 12px;
+    line-height: 1.6;
+    border-radius: 4px;
+    font-size: 24px;
+    border: 1px solid #e4e4e4;
+  }
+}

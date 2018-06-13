@@ -1,0 +1,13 @@
+{
+  "extends": "eslint-config-rs",
+  "env": {
+    "browser": true
+  },
+  "ecmaFeatures": {
+  },
+  "rules": {
+    "class-methods-use-this": [0],
+    "no-underscore-dangle": [0],
+    "react/sort-comp": [0]
+  }
+}

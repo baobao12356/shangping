@@ -1,0 +1,46 @@
+.couponconfirm{
+  height: 100px;
+  color: #ffffff;
+  background: #dfaf7d;
+  font-size: 34px;
+  text-align: center;
+  line-height: 100px;
+}
+.coupon-pop{
+  position: relative;
+  height: 790px;
+  background: #ffffff;
+}
+.coupon-pop-layer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  background: linear-gradient(rgba(255,255,255,0), rgb(255,255,255));
+}
+.coupon-pop-title{
+  color: #333333;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: bold;
+  text-align: center;
+  //line-height: 1;
+  padding: 40px 0 10px 0;
+}
+.coupon-pop-content{
+  height: 672px;
+  overflow: hidden;
+  .coupon-pop-box{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    padding: 0 30px;
+  }
+  .coupon-pop-box::-webkit-scrollbar {
+    width: 0px;
+  }
+  .coupon-pop-box::-webkit-scrollbar {
+    display: none;
+  }
+}

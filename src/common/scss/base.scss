@@ -1,0 +1,25 @@
+@import "_var.scss";
+@import "_fn.scss";
+@import "_reset.scss";
+
+a {
+  text-decoration: none !important;
+}
+
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
+
+.am-toast {
+  span {
+    display: block;
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .am-toast-notice {
+    margin: 0 auto;
+  }
+}

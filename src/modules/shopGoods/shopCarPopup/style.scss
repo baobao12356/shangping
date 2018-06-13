@@ -1,0 +1,263 @@
+@import "../../../common/scss/base.scss";
+
+.am-button-primary{
+  //background-color: #333333;
+  //border: 1px solid #333333;
+  //background-color: #dfaf7d;
+  //border: 1px solid #dfaf7d;
+  background-color: #d9353d;
+  border: 1px solid #d9353d;
+}
+.am-button-primary.am-button-active {
+  //background-color: #333333;
+  //background-color: #dfaf7d;
+  background-color: #d9353d;
+}
+.goldenColor.am-button-primary{
+  background-color: #dfaf7d;
+  border: 1px solid #dfaf7d;
+}
+.goldenColor.am-button-primary.am-button-active{
+  background-color: #dfaf7d;
+}
+#shopCarPopup {
+  width: 100%;
+  height: 930px;
+  background-color: #ffffff;
+  padding-bottom: 100px;
+  position: relative;
+
+  ul {
+    padding: 0 28px 0 28px;
+    margin: 0;
+    li.border-item {
+      border-bottom: 2px solid #e4e4e4;
+      padding: 30px 0;
+      width: 100%;
+      p.colorTitle,
+      p.kindTitle,
+      p.unitTitle{
+        margin: 0;
+        padding-bottom: 30px;
+        font-size: 28px;
+        color: #444444;
+        line-height: 28px;
+      }
+      input[type="radio"] {
+        display: none;
+      }
+
+      span.colorItem,
+      span.kindItem,
+      span.unitItem{
+        display: inline-block;
+        margin: 0 30px 30px 0;
+        padding: 0 28px;
+        color: #666666;
+        font-size: 32px;
+        height: 56px;
+        line-height: 56px;
+        background: #f9f9f9;
+        border-radius: 6px;
+      }
+
+      span.colorItem.cannot,
+      span.kindItem.cannot,
+      span.unitItem.cannot{
+        color:#a5a5a5;
+      }
+
+      input[type="radio"]:checked + span {
+        //background: #439df7;
+        //background: #333333;
+        background: #dfaf7d;
+        color: #ffffff;
+      }
+    }
+    div.scroll-box {
+      height: 600px;
+      overflow-y: auto;
+      //overflow: hidden;
+    }
+    li.goodsPrice {
+      position: relative;
+      height: 230px;
+      padding-left: 240px;
+      div.goodsImg {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        width: 240px;
+        height: 240px;
+        padding: 10px;
+        background-color: #ffffff;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      div.shopcar-icon-close{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: url("./img/icon_shopcar_close.png") no-repeat;
+        background-size: contain;
+        top: 26px;
+        left: 654px;
+      }
+
+      div.goodsText {
+        padding-left: 30px;
+        p {
+          margin: 0;
+        }
+        p.goodsPrice {
+          span.priceNum {
+            font-size: 44px;
+            color: #ff454a;
+            line-height: 32px;
+            text-align: left;
+          }
+          span.priceFloat {
+            font-size: 16px;
+            color: #ff454a;
+            text-align: left;
+          }
+          span.priceType {
+            margin-left: 20px;
+            //border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 24px;
+            color: #ffffff;
+            line-height: 24px;
+            &.pro-29 {
+              background-color: #439df7;
+            }
+            &.pro-30 {
+              background: #fea82f;
+            }
+            &.pro-31 {
+              font-size: 22px;
+              color: #dfaf7d;
+              border: 1px solid #dfaf7d;
+              border-radius: 4px;
+              //background: #ff454a;
+            }
+          }
+        }
+        p.priceCount {
+          padding-top: 38px;
+          font-size: 28px;
+          color: #444444;
+          line-height: 28px;
+          text-align: left;
+        }
+        p.priceColorKind {
+          padding-top: 24px;
+          font-size: 26.666px;
+          color: #444444;
+          line-height: 26.666px;
+        }
+      }
+    }
+    li.goodsSite {
+      padding-left: 10px;
+      span.siteTitle {
+        font-size: 28px;
+        color: #666666;
+        line-height: 28px;
+        padding-right: 50px;
+      }
+      span.siteCity {
+        font-size: 28px;
+        color: #999999;
+        line-height: 28px;
+        padding-right: 10px;
+      }
+      span.siteWay {
+        font-size: 28px;
+        color: #666666;
+        line-height: 28px;
+      }
+    }
+    li.goodsColor,
+    li.goodsKind,
+    li.goodsUnit{
+      padding-bottom: 0;
+    }
+    li.goodsCount {
+      span.countTitle {
+        font-size: 28px;
+        color: #444444;
+        height: 56px;
+        line-height: 56px;
+      }
+      div.countBox {
+        float: right;
+        span {
+          display: inline-block;
+          margin-left: 10px;
+          background: #f9f9f9;
+          width: 80px;
+          height: 56px;
+          line-height: 56px;
+          font-size: 32px;
+          color: #666666;
+          text-align: center;
+        }
+        input.countInput{
+          border: none;
+          outline: none;
+          margin-left: 10px;
+          background: #f9f9f9;
+          width: 80px;
+          height: 56px;
+          line-height: 56px;
+          font-size: 32px;
+          color: #666666;
+          text-align: center;
+        }
+        &:after {
+          content: ' ';
+          clear: both;
+        }
+      }
+    }
+
+    li.bookIngText {
+      //padding: 30px 0 15px 0;
+      height: 120px;
+      overflow-y: auto;
+      span.countTitle {
+        font-size: 28px;
+        color: #444444;
+        height: 56px;
+        line-height: 56px;
+        margin-bottom: 20px;
+      }
+      p {
+        height: 28px;
+        line-height: 28px;
+        color: rgb(174, 174, 174);
+      }
+    }
+  }
+
+  .shopCarBtn {
+    height: 100px;
+    line-height: 100px;
+    font-size: 32px;
+    color: #feffff;
+    width: 100%;
+    border-radius: 0;
+    &.doubleBtn{
+      width: 50%;
+      display: inline-block;
+    }
+    &.cannot{
+      background: gray;
+      border: gray;
+    }
+  }
+}

@@ -1,0 +1,223 @@
+@import "../../../common/scss/base.scss";
+#goods-footer {
+    background: #ffffff;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.04);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    div.footerLeft {
+        width: 310px;
+        height: 100px;
+        text-align: center;
+        display: inline-block;
+        div.am-flexbox {
+            div.am-flexbox-item {
+                height: 100px;
+                text-align: center;
+                margin: 0;
+                &:nth-of-type(1) {
+                    flex: 0 0 32%;
+                }
+                &:nth-of-type(2) {
+                    flex: 0 0 32%;
+                }
+                &:nth-of-type(3) {
+                    flex: 0 0 36%;
+                    text-align: left;
+                    img {
+                        margin: 1px 0 0 12px;
+                        width: 54% !important;
+                    }
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                &.flexboxLeft {
+                    padding-left: 24px;
+                }
+                &.flexboxRight {
+                    padding-right: 24px;
+                }
+            }
+        }
+    }
+    .flexTab {
+        float: right;
+        display: flex;
+        width: 440px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        color: #ffffff;
+        font-size: 32px;
+        span.goodsBtn {
+            flex: 1;
+            height: 100px;
+            line-height: 0;
+            padding: 50px 0;
+            text-align: center;
+            &.addShopCar {
+                background-color: #d9353d;
+            }
+            &.arriveExperience {
+                background-color: rgb(223, 175, 125);
+            }
+        }
+        span.nostart {
+            flex: 1;
+            height: 100px;
+            line-height: 0;
+            padding: 50px 0;
+            text-align: center;
+            background-color: #999999;
+            &.arriveExperience {
+                background-color: rgb(223, 175, 125);
+            }
+        }
+    }
+    .touchflexshow {
+        background: #eeeeee;
+    }
+}
+
+#link-app {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: #439df7;
+    text-align: center;
+    span {
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 100px;
+        letter-spacing: 1px;
+    }
+}
+
+.shopDetail {
+    background: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    &_top {
+        display: flex;
+        align-items: center;
+        font-size: 34px;
+        color: #444444;
+        line-height: 116px;
+        height: 116px;
+        justify-content: center;
+        box-shadow: inset 0px -0.06rem 0px 0px #f2f2f2;
+        .shopName {
+            height: 116px !important;
+            line-height: 116px !important;
+            font-size: 34px !important;
+        }
+        .distance {
+            padding-left: 20px;
+            line-height: 116px;
+        }
+    }
+    .shopName,
+    .shopAddress,
+    .shopTel {
+        font-size: 28px;
+        height: 108px;
+        line-height: 108px;
+        color: #444444;
+    }
+    .shopAddress {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 28px;
+        box-shadow: 0px 0.06rem 0px 0px #f2f2f2;
+        span {
+            display: inline-block;
+            max-width: calc(100% - 120px);
+            @extend %tov;
+        }
+    }
+    .shopTel {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 28px;
+    }
+    .icon {
+        width: 108px;
+        position: relative;
+        height: 108px;
+    }
+    .icon::after,
+    .mapIcon::after {
+        content: "";
+        position: absolute;
+        background: url("img/map.png") no-repeat;
+        background-size: contain;
+        width: 44px;
+        height: 44px;
+        top: 30px;
+        right: 32px;
+    }
+    .telIcon::after {
+        background: url("img/tel.png") no-repeat;
+        background-size: contain;
+        width: 44px;
+        height: 44px;
+    }
+    #closeMShopBtn {
+        //background: #439df7;
+        background: #333333;
+        border: 1px solid #333333;
+        border-radius: 0;
+        width: 100%;
+        height: 98px;
+        line-height: 100px;
+        font-size: 32px;
+    }
+}
+
+.am-action-sheet-button-list .am-action-sheet-cancel-button-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border: none;
+}
+
+.am-action-sheet-button-list .am-action-sheet-cancel-button {
+    background: #439df7;
+    width: 100%;
+    height: 98px;
+    line-height: 98px;
+    color: #ffffff;
+    font-size: 32px;
+    border: none;
+}
+
+.am-action-sheet-button-list .am-action-sheet-cancel-button-mask:after {
+    border: none;
+}
+
+.wish-hint {
+    position: fixed;
+    width: 380px;
+    height: 80px;
+    background-image: url(img/wishHint@2x.png);
+    background-size: 380px 80px;
+    background-repeat: no-repeat;
+    bottom: 90px;
+    left: 65px;
+    display: none;
+    .wish-text {
+        font-size: 20px;
+        text-align: center;
+        line-height: 70px;
+        color: #DFAF7D;
+    }
+}

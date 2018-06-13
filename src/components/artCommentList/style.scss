@@ -1,0 +1,61 @@
+@import "../../common/scss/base.scss";
+
+.com-art-comment-list {
+  padding: 40px 32px;
+
+  .title {
+    position: relative;
+    line-height: 3;
+    font-size: 28px;
+    border-bottom: 1px solid #e4e4e4;
+
+    .more {
+      display: flex;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 86px;
+      height: 100%;
+
+      &:after {
+        content: '';
+        display: block;
+        margin: auto;
+        width: 13px;
+        height: 13px;
+        border-top: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        transform: rotate(45deg);
+      }
+    }
+  }
+
+  li {
+    display: flex;
+    padding: 32px 8px 40px;
+
+    .name {
+      flex: 1 1 calc(100% - 80px);
+      padding-left: 32px;
+    }
+
+    h4, p {
+      width: 100%;
+      @extend %tov;
+    }
+
+    h4 {
+      margin-bottom: 24px;
+    }
+  }
+
+  .conmment-content {
+    margin-top: 27px;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .com-default-user-content {
+    flex: 0 80px;
+  }
+}

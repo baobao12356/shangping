@@ -1,0 +1,49 @@
+#linkDown{
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 130px;
+  color: #fff;
+  background-color: #000;
+  p#openApp{
+    width: 160px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    right: 100px;
+    top:65px;
+    margin-top: -40px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 28px;
+    text-align: center;
+    background-color: #439df7;
+  }
+  .close{
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 65px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -25px;
+  }
+  &:before{
+    content: 'X';
+    position: absolute;
+    right: 30px;
+    top: 65px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: -25px;
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../common/scss/base.scss";
+
+.com-goods-list {
+  display: flex;
+  margin-bottom: 46px;
+
+  .com-default-img-content {
+    width: 270px;
+    height: 270px;
+  }
+
+  .info-content {
+    flex: 1;
+    width: calc(100% - 270px);
+    padding-left: 40px;
+    height: 270px;
+  }
+
+  h4 {
+    @extend %tov;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  p {
+    &:nth-of-type(1) {
+      @include text-ellipsis(4);
+      margin-bottom: 20px;
+      height: 144px;
+      line-height: 1.5;
+      font-size: 24px;
+      color: #666666;
+    }
+
+    &:nth-of-type(2) {
+      font-size: 20px;
+    }
+
+    span {
+      display: inline-block;
+      max-width: calc(100% - 165px);
+      vertical-align: middle;
+      font-size: 40px;
+    }
+
+    button {
+      float: right;
+      width: 143px;
+      line-height: 2;
+      vertical-align: middle;
+      color: #fff;
+      font-size: 20px;
+      background-color: #439df7;
+    }
+  }
+}
+
+.com-goods-list-container {
+  padding-left: 32px;
+  padding-right: 32px;
+}

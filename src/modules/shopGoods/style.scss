@@ -1,0 +1,49 @@
+@import "../../common/scss/base.scss";
+div#shopGoods {
+    div.slider {
+        div.slider-frame {
+            ul.slider-list {}
+        }
+        div.slider-decorator-0 {
+            width: 100%;
+            div.am-carousel-wrap {
+                padding: 0 0px 24px 0;
+                background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.04));
+                background-repeat-y: no-repeat;
+                background-repeat-x: repeat;
+                background-size: contain;
+                div.am-carousel-wrap-dot {
+                    span {
+                        border-radius: 50%; //width: 10.6666px;
+                        //height: 10.6666px;
+                        width: 1.333vw;
+                        height: 1.333vw;
+                        background: #ffffff;
+                        opacity: 0.3;
+                    }
+                }
+                div.am-carousel-wrap-dot-active {
+                    span {
+                        background: #ffffff !important;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .split {
+        height: 12px;
+        background: #f1f1f1;
+    }
+}
+
+div.popupActive {
+    position: fixed;
+    width: 10rem;
+}
+
+.am-toast span {
+  display: block;
+  width: 30% !important;
+  max-width: 90%;
+}
